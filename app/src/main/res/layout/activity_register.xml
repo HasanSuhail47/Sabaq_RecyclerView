@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/Name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Manzil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Manzil"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/Sabqi_txt"
+        app:layout_constraintTop_toBottomOf="@+id/Sabqi_txt" />
+
+    <EditText
+        android:id="@+id/Sabaq_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Sabaq"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/Name_txt"
+        app:layout_constraintTop_toBottomOf="@+id/Name_txt" />
+
+    <EditText
+        android:id="@+id/Sabqi_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="Sabqi"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/Sabaq_txt"
+        app:layout_constraintTop_toBottomOf="@+id/Sabaq_txt" />
+
+    <Button
+        android:id="@+id/Add_st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="59dp"
+        android:text="Add"
+        app:layout_constraintStart_toStartOf="@+id/Manzil_txt"
+        app:layout_constraintTop_toBottomOf="@+id/Manzil_txt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

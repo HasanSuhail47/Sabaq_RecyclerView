@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Show_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginBottom="32dp"
+        android:text="Show All"
+        app:layout_constraintBottom_toTopOf="@+id/Add_btn"
+        app:layout_constraintEnd_toEndOf="@+id/Add_btn"
+        app:layout_constraintStart_toStartOf="@+id/Add_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Add_btn"
+        android:layout_width="139dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="344dp"
+        android:text="Add Student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Show_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
